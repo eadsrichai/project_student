@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include_once('db.php');
+        include_once('../service/db.php');
         $id_dep = $_GET['id_dep'];
         $sql = "SELECT * FROM  	Dep WHERE id_dep = ?";
         $stmt = $conn->prepare($sql);
