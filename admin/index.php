@@ -15,6 +15,14 @@
                   </head>
                   <body><div class='container'>";
           echo "<div><p class='mt-3 p-3  bg bg-primary text-white fs-1'>ระบบฐานข้อมูลนักเรียน</p></div>";
+          
+          ?> 
+
+          <div>
+              <a href='formInsertDep.html'>เพิ่มข้อมูลแผนก</a>
+          </div>
+
+          <?php
           echo "<table class='table fs-3 table-striped table-hover'>
                   <thead>
                   <tr>
